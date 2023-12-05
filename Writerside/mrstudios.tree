@@ -21,4 +21,15 @@
             <toc-element topic="dr_developer_api_traps.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="jc_index.md">
+        <toc-element topic="jc_getting_started.md"/>
+        <toc-element topic="jc_inject.md">
+            <toc-element topic="jc_inject_setup.md"/>
+            <toc-element topic="jc_inject_usage.md"/>
+        </toc-element>
+        <toc-element topic="jc_reflection.md">
+            <toc-element topic="jc_reflection_setup.md"/>
+            <toc-element topic="jc_reflection_usage.md"/>
+        </toc-element>
+    </toc-element>
 </instance-profile>
