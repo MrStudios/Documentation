@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
     <build-profile instance="mrstudios">
         <variables>
             <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
+    <variables />
+    <footer>
+        <copyright>MrStudios Industries</copyright>
+        <link href="https://mrstudios.pl/">Home</link>
+        <link href="https://status.mrstudios.pl/">Status</link>
+        <link href="https://repo.mrstudios.pl/">Repository</link>
+    </footer>
 
 </buildprofiles>
