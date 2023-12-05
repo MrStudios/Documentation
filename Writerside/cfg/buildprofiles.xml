@@ -6,7 +6,11 @@
             <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
-    <variables />
+
+    <variables>
+        <custom-favicons>logo.png</custom-favicons>
+    </variables>
+
     <footer>
         <copyright>MrStudios Industries</copyright>
         <link href="https://mrstudios.pl/">Home</link>
