@@ -8,26 +8,33 @@ In this document, you will find how to add `mrstudios-public` repository to your
 ### Repository
 To add our repository to your build system, you must add lines described bellow to your build system file.
 
-- Maven
-```xml
-<repository>
-    <id>mrstudios-public</id>
-    <url>https://repo.mrstudios.pl/public</url>
-</repository>
-```
+<tabs group="build-systems">
 
-- Gradle (Groovy)
-```Groovy
-maven {
-    name "mrstudios-public"
-    url "https://repo.mrstudios.pl/public"
-}
-```
+<tab title="Maven" group-key="maven">
+    <code-block lang="xml">
+        &#x3C;repository&#x3E;
+            &#x3C;id&#x3E;mrstudios-public&#x3C;/id&#x3E;
+            &#x3C;url&#x3E;https://repo.mrstudios.pl/public&#x3C;/url&#x3E;
+        &#x3C;/repository&#x3E;
+    </code-block>
+</tab>
 
-- Gradle (Kotlin)
-```Kotlin
-maven {
-    name = "mrstudios-public"
-    url = uri("https://repo.mrstudios.pl/public")
-}
-```
+<tab title="Gradle (Groovy)" group-key="gradle-groovy">
+    <code-block lang="groovy">
+        maven {
+            name "mrstudios-public"
+            url "https://repo.mrstudios.pl/public"
+        }
+    </code-block>
+</tab>
+
+<tab title="Gradle (Kotlin)" group-key="gradle-kotlin">
+    <code-block lang="kotlin">
+        maven {
+            name = "mrstudios-public"
+            url = uri("https://repo.mrstudios.pl/public")
+        }
+    </code-block>
+</tab>
+
+</tabs>
