@@ -53,13 +53,13 @@ To add ``deathrun-api`` to your project, you must add lines described bellow to 
 
 <tab title="Gradle (Groovy)" group-key="gradle-groovy">
     <code-block lang="groovy">
-        implementation "pl.mrstudios.deathrun:deathrun-api:VERSION"
+        compileOnly "pl.mrstudios.deathrun:deathrun-api:VERSION"
     </code-block>
 </tab>
 
 <tab title="Gradle (Kotlin)" group-key="gradle-kotlin">
     <code-block lang="kotlin">
-        implementation("pl.mrstudios.deathrun:deathrun-api:VERSION")
+        compileOnly("pl.mrstudios.deathrun:deathrun-api:VERSION")
     </code-block>
 </tab>
 
