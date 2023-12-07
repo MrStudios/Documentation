@@ -10,6 +10,7 @@ import org.bukkit.Material;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import pl.mrstudios.deathrun.api.arena.trap.ITrap;
+import pl.mrstudios.deathrun.api.arena.trap.annotations.Serializable;
 
 import java.time.Duration;
 import java.util.List;
@@ -18,6 +19,8 @@ public class ExampleTrap implements ITrap {
 
     private Location button;
     private List<Location> locations;
+    
+    @Serializable
     private Material extra;
 
     @Override
