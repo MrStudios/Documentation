@@ -9,6 +9,7 @@ Command to add a trap is ``/deathrun setup addtrap <type> (material)``, where ``
 | APPEARING BLOCKS    | Value from ``material`` is used to set block type that will be appear after trap start and will disappear after trap end. |
 | DISAPPEARING BLOCKS | Value from ``material`` is used to filter blocks from types that are not matching this argument.                          |
 | TNT                 | This trap type is not using this value, argument can be empty.                                                            |
+| ARROWS              | This trap type is not using this value, argument can be empty.                                                            |
 
 ### Area Selection
 Using [**WorldEdit**](https://enginehub.org/worldedit) wand selects corners of a trap region.
