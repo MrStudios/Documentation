@@ -34,12 +34,42 @@ this.getServer().getPluginManager().registerEvents(new ExampleListener(), this);
 ```
 
 ### Available Events
-- ``ArenaGameStateChangeEvent`` **|** Event triggered after arena `GameState` changed.
-- ``ArenaShutdownStartedEvent`` **|** Event triggered after arena enters shutdown phase.
-- ``ArenaTrapActivateEvent`` **|** Event triggered when a user activates a trap.
-- ``ArenaUserJoinedEvent`` **|** Event triggered when a user joined arena.
-- ``ArenaUserLeftEvent`` **|** Event triggered when a user left arena.
-- ``UserArenaCheckpointEvent`` **|** Event triggered when a user reached checkpoint.
-- ``UserArenaDeathEvent`` **|** Event triggered when user die.
-- ``UserArenaFinishedEvent`` **|** Event triggered when user finished arena.
-- ``UserArenaRoleAssignedEvent`` **|** Event triggered when user has assigned role.
+ArenaGameStateChangeEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered after arena `GameState` changed.
+
+ArenaShutdownStartedEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered after arena enters shutdown phase.
+
+ArenaTrapActivateEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when a user activates a trap.
+
+ArenaUserJoinedEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when a user joined arena.
+
+ArenaUserLeftEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when a user left arena.
+
+UserArenaCheckpointEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when a user reached checkpoint.
+
+UserArenaDeathEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when user die.
+
+UserArenaFinishedEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when user finished arena.
+
+UserArenaRoleAssignedEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when user has assigned role.
+
+UserArenaUseBoosterEvent
+{collapsible="true" default-state="collapsed"}
+: Event triggered when user uses an booster.

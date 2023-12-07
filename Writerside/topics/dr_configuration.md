@@ -84,6 +84,34 @@ block-effects:
     <p>Field <code>effect</code> must be an <a href="https://jd.papermc.io/paper/1.16/org/bukkit/potion/PotionEffectType.html">PotionEffectType</a> value.</p>
 </warning>
 
+### Boosters
+In this field, you can specify boosters.
+
+```yaml
+boosters:
+  - slot: 0
+    power: 2.5
+    delay: 10
+    item:
+      name: <green>Booster <gray>(Right Click)
+      material: FEATHER
+    delayItem:
+      name: <red>Booster <gray>(<delay> seconds)
+      material: FEATHER
+    direction: FORWARD
+    sound: ENTITY_BLAZE_AMBIENT
+```
+
+<warning>
+    <p>Field <code>material</code> must be an <a href="https://jd.papermc.io/paper/1.16/org/bukkit/Material.html">Material</a> enum value.</p>
+</warning>
+<warning>
+    <p>Field <code>direction</code> must be <code>FORWARD</code>, <code>BACKWARD</code>, <code>LEFT</code> or <code>RIGHT</code> value.</p>
+</warning>
+<warning>
+    <p>Field <code>sound</code> must be an <a href="https://jd.papermc.io/paper/1.16/org/bukkit/Sound.html">Sound</a> enum value.</p>
+</warning>
+
 ### Arena Sound Pre Starting
 In this field, you can specify what sound all players hear when an arena pre starting counting a milestone will be reached.
 
