@@ -111,6 +111,27 @@ boosters:
 <warning>
     <p>Field <code>sound</code> must be an <a href="https://jd.papermc.io/paper/1.16/org/bukkit/Sound.html">Sound</a> enum value.</p>
 </warning>
+<tip>
+    <p>
+    If you want to use head texture, you can add <code>texture</code> field into <code>item</code> or <code>delayItem</code>, example is visible bellow.
+    <code-block lang="yaml">
+        boosters:
+          - slot: 0
+            power: 2.5
+            delay: 10
+            item:
+              name: &#x3C;green&#x3E;Booster &#x3C;gray&#x3E;(Right Click)
+              material: PLAYER_HEAD
+              texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIyMWRhNDQxOGJkM2JmYjQyZWI2NGQyYWI0MjljNjFkZWNiOGY0YmY3ZDRjZmI3N2ExNjJiZTNkY2IwYjkyNyJ9fX0=
+            delayItem:
+              name: &#x3C;red&#x3E;Booster &#x3C;gray&#x3E;(&#x3C;delay&#x3E; seconds)
+              material: PLAYER_HEAD
+              texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDVjNTg4YjllYzBhMDhhMzdlMDFhODA5ZWQwOTAzY2MzNGMzZTNmMTc2ZGM5MjIzMDQxN2RhOTNiOTQ4ZjE0OCJ9fX0=
+            direction: FORWARD
+            sound: ENTITY_BLAZE_AMBIENT
+    </code-block>
+    </p>
+</tip>
 
 ### Arena Sound Pre Starting
 In this field, you can specify what sound all players hear when an arena pre starting counting a milestone will be reached.
