@@ -113,7 +113,8 @@ boosters:
 </warning>
 <tip>
     <p>
-    If you want to use head texture, you can add <code>texture</code> field into <code>item</code> or <code>delayItem</code>, example is visible bellow.
+        If you want to use head texture, you can add <code>texture</code> field into <code>item</code> or <code>delayItem</code>, example is visible bellow.
+    </p>
     <code-block lang="yaml">
         boosters:
           - slot: 0
@@ -130,7 +131,6 @@ boosters:
             direction: FORWARD
             sound: ENTITY_BLAZE_AMBIENT
     </code-block>
-    </p>
 </tip>
 
 ### Arena Sound Pre Starting
