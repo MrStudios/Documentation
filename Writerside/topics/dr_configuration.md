@@ -62,6 +62,13 @@ In this field, you can specify how many blocks a player can fall without dying.
 arena-max-fall-distance: 8
 ```
 
+### Arena Death Speed Amplifier
+In this field, you can specify how much speed receives players with a death role.
+
+```yaml
+arena-death-speed-amplifier: 10
+```
+
 ### Block Effects
 In this field, you can specify what effects will be granted to player when he stands on this block.
 
