@@ -8,7 +8,7 @@ permissions:
   pages: write
 env:
   INSTANCE: 'Writerside/mrstudios'
-  ARTIFACT: 'webHelpMRSTUDIOS2-all'
+  ARTIFACT: 'webHelpMRSTUDIOS2-all.zip'
   DOCKER_VERSION: '232.10275'
 jobs:
   build:
