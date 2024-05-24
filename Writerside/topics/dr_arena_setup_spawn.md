@@ -5,7 +5,7 @@ In this document, we will explain how to add teleport pad during arena setup in 
 Command to add spawn location is ``/deathrun setup addspawn <role>``, where ``role`` is ``RUNNER`` or ``DEATH``.
 
 <warning>
-    <p>If you are gaining SPECTATOR and UNKNOWN argument suggestions, please ignore it this may cause issues.</p>
+    <p>If you are gaining ``SPECTATOR`` and ``UNKNOWN`` argument suggestions, please ignore it this may cause issues.</p>
 </warning>
 
 ### Video

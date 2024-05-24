@@ -92,12 +92,12 @@ public class ExampleTrap implements ITrap {
 - `ITrap#start()` **|** Triggers on trap start.
 - `ITrap#end()` **|** Triggers on trap end.
 - `ITrap#filter()` **|** Triggers on set up a trap, return list that will be saved in `map.yml` file.
-- `ITrap#setExtra()` **|** Triggers on set up a trap, provides `material` argument if that exists.
+- `ITrap#setExtra()` **|** Triggers on set up a trap, provides `material` or `particle` argument if that exists.
 - `ITrap#getDuration()` **|** Returns the amount of time that trap is running in a `Duration` object.
 
 ### Trap Registration
 To register your trap, add the following lines to your code in ``JavaPlugin#onEnable()`` method.
 
 ```Java
-this.api.getTrapRegistry().register("example", ExampleTrap.class);
+this.api.trapRegistryInstance().register("example", ExampleTrap.class);
 ```

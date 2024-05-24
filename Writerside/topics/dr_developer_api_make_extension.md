@@ -23,7 +23,7 @@ public class ExampleExtension extends JavaPlugin {
             throw new RuntimeException("You must have 'DeathRun' plugin installed on your server.");
 
         /* Set API Instance */
-        this.api = API.instance;
+        this.api = API.apiInstance();
 
     }
 
