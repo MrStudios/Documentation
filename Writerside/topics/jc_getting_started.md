@@ -22,18 +22,14 @@ To add our repository to your build system, you must add lines described bellow 
 <tab title="Gradle (Groovy)" group-key="gradle-groovy">
     <code-block lang="groovy">
         maven {
-            name "mrstudios-public"
-            url "https://repo.mrstudios.pl/public"
+            url "https://repo.mrstudios.pl/public/"
         }
     </code-block>
 </tab>
 
 <tab title="Gradle (Kotlin)" group-key="gradle-kotlin">
     <code-block lang="kotlin">
-        maven {
-            name = "mrstudios-public"
-            url = uri("https://repo.mrstudios.pl/public")
-        }
+        maven("https://repo.mrstudios.pl/public/")
     </code-block>
 </tab>
 

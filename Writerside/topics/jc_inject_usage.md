@@ -13,8 +13,8 @@ public class Example {
     public static void main(String[] args) {
 
         Injector injector = new Injector()
-                .register(args)
-                .register(Enemy.class, new Enemy("An Enemy"));
+                .registerService(args)
+                .registerService(Enemy.class, new Enemy("An Enemy"));
 
         injector.inject(AnClass.class);
 
