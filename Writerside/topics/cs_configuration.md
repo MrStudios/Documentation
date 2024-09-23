@@ -29,14 +29,3 @@ command-suggesting-map:
     </p>
 </warning>
 
-### Can Not Use That Command Message 
-In this field, you can specify a message that a player will receive when it doesn't have permission to use command.
-
-```yaml
-can-not-use-that-command-message: '<red>You can't use that command because you dont have permissions.'
-```
-
-<tip>
-    <p>You can use <a href="https://docs.advntr.dev/minimessage/index.html">MiniMessage</a> component formatting.</p>
-</tip>
-
