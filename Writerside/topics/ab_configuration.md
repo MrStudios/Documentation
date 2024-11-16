@@ -110,6 +110,7 @@ verification-procedure:
         - protocol <i>(integer)</i><br>
         - brandCheck <i>(boolean)</i><br>
         - settingsCheck <i>(boolean)</i><br>
+        - ping <i>(integer)</i>
         <br>
         Example Expressions:
         <code-block lang="java">
@@ -121,6 +122,40 @@ verification-procedure:
         <code-block lang="java">
         (protocol >= 767 && !onlineMode) || !settingsCheck || !brandCheck
         </code-block>
+    </p>
+</warning>
+
+### Analyze Addresses
+In this field, you can toggle the status of checking player address using [ip-api.com](https://ip-api.com/) service.
+
+```yaml
+analyze-addresses: true
+```
+
+### Prevent Proxy Connections
+In this field, you can allow or disallow connections using proxy, vpn and/or hosting addresses.
+
+```yaml
+prevent-proxy-connections: true
+```
+
+### Blocked Isp
+In this field, you can put *Internet Service Providers* names to prevent connections from addresses that belong to specific providers.
+
+```yaml
+blocked-isp: []
+```
+
+### Blocked Countries
+In this field, you can put countries from which connections will be blocked.
+
+```yaml
+blocked-countries: []
+```
+
+<warning>
+    <p>
+        Allowed countries format is <a href="https://en.wikipedia.org/wiki/ISO_3166">ISO 3166</a> <i>(full name, e.g. 'United States')</i> and <a href="https://en.wikipedia.org/wiki/ISO_3166-1">ISO 3166-1 A-2</a> <i>(two letter code, e.g. 'US')</i>, other formats is not supported.
     </p>
 </warning>
 
